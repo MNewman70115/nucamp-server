@@ -10,7 +10,7 @@ const promotionSchema = new Schema({
         unique: true
     },
     image: {
-        type: Image,
+        type: String,
         required: true
     },
     featured: {
